@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(255, 136, 0);
+    direction: ltr;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+a {
+    color: aliceblue;
+    font-size: 80px;
+    text-decoration: overline;
+}
+
+a:hover {
+    color: brown;
+    font-size: 122px;
+    text-decoration: overline;
+}
+
+img {
+    width: 250px;  /* Initial size */
+    height: 250px; /* Keep it square */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensures proper cropping */
+    transition: all 0.3s ease; /* Smooth animation */
+}
+
+img:hover {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%; /* Keep it circular */
+}
+
+ol{
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+
+li{
+
+    float: left;
+    padding-left: 100px;
+    
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 33%;
+}
+
+
